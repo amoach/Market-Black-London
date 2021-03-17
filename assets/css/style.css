@@ -11,8 +11,12 @@ body {
 }
 
 .logo {
-    width: 60vw;
+    width: 40vw;
     align-content: center;
+}
+
+.navbar-toggler {
+    margin-left: 80%;
 }
 
 .header-container {
@@ -21,4 +25,14 @@ body {
 
 .bg-primary {
     background-color: rgb(46 16 4)!important;
+}
+
+.sage-home {
+    margin-left: 5%;
+}
+
+.baker {
+    width: 40vw;
+    length: 10vh;
+    margin-top: ;
 }
