@@ -5,6 +5,20 @@ body {
     width: 100vw;
 }
 
-div#map {
-    min-height: 360px;
+#map {
+    width: 80vw;
+    height: 80vh;
+}
+
+.logo {
+    width: 60vw;
+    align-content: center;
+}
+
+.header-container {
+    background-color: rgb(46 16 4);
+}
+
+.bg-primary {
+    background-color: rgb(46 16 4)!important;
 }
