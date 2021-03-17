@@ -68,6 +68,7 @@ h1 {
 
 .about-p {
     font-family: ABeeZee;
+    color: rgb(46, 16, 4);
     width: 60vw;
     margin-left: 33%;
     margin-top: 5%;
@@ -84,4 +85,60 @@ h1 {
     color: rgb(37,67,235);
     margin-left: 1%;
     margin-top: 11%;
+}
+
+.map-p {
+    color: rgb(46, 16, 4);
+    font-family: ABeeZee;
+}
+
+.container {
+  overflow: hidden;
+}
+.bg {
+  width:100%;
+  height: 200px;
+  border-radius: 0 0 50% 50%;
+  background-color: rgb(183, 141, 121);
+  margin-top:-130px;
+}
+
+.places-header {
+    color: rgb(180, 0, 0);
+    margin-left: 42%;
+    margin-top: 7%;
+}
+
+.places-p {
+    color: rgb(46, 16, 4);
+    margin-left: 30%;
+    font-family: ABeeZee;
+}
+
+.bidhaar {
+    width: 541px;
+    height: 370px;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.buster {
+    width: 541px;
+    height: 370px;
+    border-radius: 50%;
+    margin-top: 7%;
+}
+
+.butcher {
+    width: 500px;
+    height: 400px;
+   
+}
+
+.dark {
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
