@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&display=swap');
 
 body {
     background-color: rgb(255, 255, 255);
@@ -49,7 +50,32 @@ body {
 .headline {
     font-family: ABeeZee;
     font-size: 25px;
-    margin-top: 2%;
+    margin-top: 5%;
     color: rgb(46, 16, 4);
-    margin-left: 17%;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: 50%;
+    
+}
+
+.about-header {
+    margin-left: 70%;
+}
+
+.about-p {
+    font-family: ABeeZee;
+    width: 60vw;
+    
+}
+
+.about-header {
+    color: rgb(180, 0, 0);
+}
+
+.search-header {
+    color: rgb(37,67,235);
 }
