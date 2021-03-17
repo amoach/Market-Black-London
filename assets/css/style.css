@@ -62,20 +62,27 @@ h1 {
     
 }
 
-.about-header {
-    margin-left: 70%;
+.map-container {
+    background-color: rgb(183, 141, 121);
 }
 
 .about-p {
     font-family: ABeeZee;
     width: 60vw;
-    
+    margin-left: 33%;
+    margin-top: 5%;
+    margin-bottom: 11%;
 }
 
 .about-header {
     color: rgb(180, 0, 0);
+    margin-left: 70%;
+    margin-top: 7%;
 }
 
-.search-header {
+.map-header {
     color: rgb(37,67,235);
+    margin-left: 70%;
+    margin-top: 11%;
 }
+
