@@ -1,36 +1,49 @@
 
-/*function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 3,
-            center: {
-                lat: 46.619261,
-                lng: -33.134766
-            }
-        });*/
+let map;
+let service;
+let infowindow;
 
-function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
-        center: { lat: 46.619261, lng: -33.134766 },
+const inputEmail = document.getElementById("inputEmail");
+const searchButton = document.getElementById("searchButton");
+
+searchButton.addEventListener("click", (e) => {
+  e.preventDefault();
+    const inputEmail = document.getElementById("inputEmail");
+    searchInput(inputEmail)
 });
 
-    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    const markers = locations.map((location, i) => {
-        return new google.maps.Marker({
-        position: location,
-        label: labels[i % labels.length],
-        });
-    });
-
-    new MarkerClusterer(map, markers, {
-        imagePath:
-        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
+function initMap(place) {
+    console.log(place)
+  const sydney = new google.maps.LatLng(-33.867, 151.195);
+  infowindow = new google.maps.InfoWindow();
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: sydney,
+    zoom: 6,
+  });
+  const request = {
+    query: "brazil",
+    fields: ["name", "geometry", "photos"],
+  };
+    
+  service = new google.maps.places.PlacesService(map);
+  service.findPlaceFromQuery(request, (results, status) => {
+    if (status === google.maps.places.PlacesServiceStatus.OK && results) {
+      console.log(results);
+      for (let i = 0; i < results.length; i++) {
+        createMarker(results[i]);
+      }
+      map.setCenter(results[0].geometry.location);
     }
-
-    const locations = [
-        { lat: 51.469801, lng: -0.068252 },
-        { lat: 41.084045, lng: -73.874245 },
-        { lat: 40.754932, lng: -73.984016 },
-    ];
+  });
+}
+function createMarker(place) {
+  if (!place.geometry || !place.geometry.location) return;
+  const marker = new google.maps.Marker({
+    map,
+    position: place.geometry.location,
+  });
+  google.maps.event.addListener(marker, "click", () => {
+    infowindow.setContent(place.name || "");
+    infowindow.open(map);
+  });
+}
