@@ -1,4 +1,3 @@
-
 let map;
 let service;
 let infowindow;
@@ -13,7 +12,7 @@ searchButton.addEventListener("click", (e) => {
 });
 
 function initMap(place) {
-    console.log(place)
+    console.log(place);
   const sydney = new google.maps.LatLng(-33.867, 151.195);
   infowindow = new google.maps.InfoWindow();
   map = new google.maps.Map(document.getElementById("map"), {
