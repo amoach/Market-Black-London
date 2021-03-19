@@ -66,6 +66,10 @@ h1 {
     background-color: rgb(183, 141, 121);
 }
 
+#map {
+    margin-left: 10%;
+}
+
 .about-p {
     font-family: ABeeZee;
     color: rgb(46, 16, 4);

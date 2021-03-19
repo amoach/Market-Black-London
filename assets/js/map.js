@@ -13,14 +13,14 @@ searchButton.addEventListener("click", (e) => {
 
 function initMap(place) {
     console.log(place);
-  const sydney = new google.maps.LatLng(-33.867, 151.195);
+  const london = new google.maps.LatLng(51.507351, -0.127758);
   infowindow = new google.maps.InfoWindow();
   map = new google.maps.Map(document.getElementById("map"), {
-    center: sydney,
+    center: london,
     zoom: 6,
   });
   const request = {
-    query: "brazil",
+    query: "london",
     fields: ["name", "geometry", "photos"],
   };
     
