@@ -168,12 +168,13 @@ h1 {
 
 .contact-header {
     color: rgb(37,67,235);
-    margin-left: 45%;
+    margin-left: 44%;
     margin-top: 7%;
 }
 
 .contact-p {
     color: rgb(46, 16, 4);
+    margin-top: 2%;
     margin-left: 33%;
     font-family: ABeeZee;
 }
@@ -235,7 +236,7 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #fff;
+  color: rgb(255, 0, 0);
   font-size: 0.875em;
 }
 
@@ -294,7 +295,7 @@ input {
 
 input:hover {
   background: rgb(46, 16, 4);
-  color: #fff;
+  color: rgb(37,67,235);
 }
 
 textarea {
@@ -321,7 +322,7 @@ textarea {
 
 textarea:hover {
   background: rgb(46, 16, 4);
-  color: #fff;
+  color: rgb(37,67,235);
 }
 
 #submit {
