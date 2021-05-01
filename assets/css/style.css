@@ -236,7 +236,7 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: rgb(46, 16, 4));
+  color: rgb(46, 16, 4);
   font-size: 0.875em;
 }
 
@@ -343,6 +343,6 @@ textarea:hover {
 }
 
 #submit:hover {
-  color: #fff;
-  background: rgb(37,67,235);
+  color: rgb(37,67,235);
+  background: #fff;
 }
