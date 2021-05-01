@@ -14,10 +14,17 @@ body {
 .logo {
     width: 40vw;
     align-content: center;
+    background-color: rgb(46, 16, 4);
 }
+
 .home-image {
     max-width: 10vw;
     align-content: center;
+}
+
+.carousel {
+    width: 100vw;
+    height: 200vh;
 }
 
 .navbar-toggler {
@@ -31,21 +38,6 @@ body {
 .bg-primary {
     background-color: rgb(46, 16, 4)!important;
 }
-
-/*.sage-home {
-    margin-left: 15%;
-    border: 5px solid rgb(37,67,235);
-    border-radius: 50%;
-    width: 35vw;
-    height: 70vh;
-}
-
-/*.baker {
-    width: 30vw;
-    height: 70vh;
-    border: 5px solid rgb(156, 0, 0);
-    
-}*/
 
 .about-container {
     background-color: rgb(255, 255, 255);
@@ -257,14 +249,6 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   font-family: ABeeZee, sans-serif;
   background: #fff;
   color: rgb(46, 16, 4);
-}
-
-header {
-  position: relative;
-  margin: 100px 0 25px 0;
-  font-size: 2.3em;
-  text-align: center;
-  letter-spacing: 7px;
 }
 
 #form {
