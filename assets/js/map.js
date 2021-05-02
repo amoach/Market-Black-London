@@ -5,12 +5,13 @@ let infowindow;
 const inputEmail = document.getElementById("inputEmail");
 const searchButton = document.getElementById("searchButton");
 
-searchButton.addEventListener("click", (e) => {
-  e.preventDefault();
-    const inputEmail = document.getElementById("inputEmail");
-    searchInput(inputEmail)
-});
+// searchButton.addEventListener("click", (e) => {
+//   e.preventDefault();
+//     const inputEmail = document.getElementById("inputEmail");
+//     searchInput(inputEmail)
+// });
 
+initMap();
 function initMap(place) {
     console.log(place);
   const london = new google.maps.LatLng(51.507351, -0.127758);
