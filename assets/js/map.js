@@ -1,6 +1,14 @@
+const locations = [
+  { lat: 51.469801, lng: -0.068252 },
+  { lat: -33.718234, lng: 150.363181 },
+  { lat: -33.727111, lng: 150.371124 },
+];
+
+
 let map;
 let service;
 let infowindow;
+
 
 const inputEmail = document.getElementById("inputEmail");
 const searchButton = document.getElementById("searchButton");
@@ -49,18 +57,14 @@ function createMarker(place) {
 }
 
 
-
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 3,
-    center: { lat: -28.024, lng: 140.887 },
+    zoom: 6,
+    center: { lat: 51.507351, lng: -0.127758 },
   });
   // Create an array of alphabetical characters used to label the markers.
   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  // Add some markers to the map.
-  // Note: The code uses the JavaScript Array.prototype.map() method to
-  // create an array of markers based on a given "locations" array.
-  // The map() method here has nothing to do with the Google Maps API.
+
   const markers = locations.map((location, i) => {
     return new google.maps.Marker({
       position: location,
@@ -73,11 +77,6 @@ function initMap() {
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 }
-const locations = [
-  { lat: -31.56391, lng: 147.154312 },
-  { lat: -33.718234, lng: 150.363181 },
-  { lat: -33.727111, lng: 150.371124 },
-];
 
-var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: `${path}/m`});
+// var markerCluster = new MarkerClusterer(map, markers,
+//             {imagePath: `${path}/m`});
