@@ -1,7 +1,13 @@
 const locations = [
-  { lat: 51.469801, lng: -0.068252 },
-  { lat: -33.718234, lng: 150.363181 },
-  { lat: -33.727111, lng: 150.371124 },
+  { lat: 51.469801, lng: -0.068252 }, //Bidhaar//
+  { lat: 51.478724, lng: -0.025797 }, //Buster Mantis//
+  { lat: 51.533433, lng: -0.057119 }, //Yo Crackers//
+  { lat: 51.523929, lng: -0.071636 }, //Dark Sugars//
+  { lat: 51.480937, lng: -0.000843 }, //Dark Sugars//
+  { lat: 51.584615, lng: -0.076235 }, //Uncle John's Bakery//
+  { lat: 51.462206, lng: -0.111581 }, //Round Table Books//
+  { lat: 51.466241, lng: -0.066484 }, //Sage Flowers//
+  { lat: 51.549469, lng: -0.054751 }, //The Black Butcher//
 ];
 
 
