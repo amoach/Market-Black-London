@@ -1,7 +1,7 @@
 const locations = [
   { lat: 51.469801, lng: -0.068252 }, //Bidhaar
-    iconImage: "assets/images/bidhaar.png",
-    // content: "<img src='assets/images/map-images/windmills_150px.jpg'><h4>Mykonos Windmills</h4><a href='index.html#windmills-info'>Click here to learn more about Mykonos Windmills</a>",
+    // iconImage: "assets/images/bidhaar.png",
+    // content: "<img src='assets/images/map-images/bidhaar-map.jpg'><h4>Bidhaar</h4><a href='index.html#Bidhaar-info'>Click for more on Bidhaar</a>",
     // },
   { lat: 51.478724, lng: -0.025797 }, //Buster Mantis
   { lat: 51.533433, lng: -0.057119 }, //Yo Crackers
