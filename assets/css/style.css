@@ -129,6 +129,12 @@ h1 {
     object-fit: cover;
 }
 
+.d-block {
+    margin-top: ;
+    height: 30vw;
+    object-fit: cover;
+}
+
 .bidhaar {
     width: 541px;
     height: 370px;
