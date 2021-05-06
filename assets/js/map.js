@@ -1,13 +1,16 @@
 const locations = [
-  { lat: 51.469801, lng: -0.068252 }, //Bidhaar//
-  { lat: 51.478724, lng: -0.025797 }, //Buster Mantis//
-  { lat: 51.533433, lng: -0.057119 }, //Yo Crackers//
-  { lat: 51.523929, lng: -0.071636 }, //Dark Sugars//
-  { lat: 51.480937, lng: -0.000843 }, //Dark Sugars//
-  { lat: 51.584615, lng: -0.076235 }, //Uncle John's Bakery//
-  { lat: 51.462206, lng: -0.111581 }, //Round Table Books//
-  { lat: 51.466241, lng: -0.066484 }, //Sage Flowers//
-  { lat: 51.549469, lng: -0.054751 }, //The Black Butcher//
+  { lat: 51.469801, lng: -0.068252 }, //Bidhaar
+    iconImage: "assets/images/bidhaar.png",
+    // content: "<img src='assets/images/map-images/windmills_150px.jpg'><h4>Mykonos Windmills</h4><a href='index.html#windmills-info'>Click here to learn more about Mykonos Windmills</a>",
+    // },
+  { lat: 51.478724, lng: -0.025797 }, //Buster Mantis
+  { lat: 51.533433, lng: -0.057119 }, //Yo Crackers
+  { lat: 51.523929, lng: -0.071636 }, //Dark Sugars
+  { lat: 51.480937, lng: -0.000843 }, //Dark Sugars
+  { lat: 51.584615, lng: -0.076235 }, //Uncle John's Bakery
+  { lat: 51.462206, lng: -0.111581 }, //Round Table Books
+  { lat: 51.466241, lng: -0.066484 }, //Sage Flowers
+  { lat: 51.549469, lng: -0.054751 }, //The Black Butcher
 ];
 
 
@@ -32,7 +35,7 @@ function initMap(place) {
   infowindow = new google.maps.InfoWindow();
   map = new google.maps.Map(document.getElementById("map"), {
     center: london,
-    zoom: 6,
+    zoom: 10,
   });
   const request = {
     query: "london",
@@ -65,7 +68,7 @@ function createMarker(place) {
 
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 6,
+    zoom: 12,
     center: { lat: 51.507351, lng: -0.127758 },
   });
   // Create an array of alphabetical characters used to label the markers.
