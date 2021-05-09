@@ -116,3 +116,31 @@ function initMap() {
     infowindow.open(map, marker);
   });
 }
+
+function initMap() {
+  const busterMantis = { lat: 51.478724, lng: -0.025797 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 11,
+    center: busterMantis,
+  });
+  const contentString =
+    '<div id="content">' +
+    '<div id="siteNotice">' +
+    "</div>" +
+    '<h1 id="firstHeading" class="firstHeading">Buster Mantis</h1>' +
+    '<div id="bodyContent">' +
+    "<p><b>Bidhaar</b>Industrial-chic haunt serving creative cocktails & island-inspired bar bites, plus live music</p> " +
+    "</div>" +
+    "</div>";
+  const infowindow = new google.maps.InfoWindow({
+    content: contentString,
+  });
+  const marker = new google.maps.Marker({
+    position: busterMantis,
+    map,
+    title: "Buster Mantis",
+  });
+  marker.addListener("click", () => {
+    infowindow.open(map, marker);
+  });
+}
