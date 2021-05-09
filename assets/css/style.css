@@ -64,9 +64,13 @@ h1 {
     background-color: rgb(183, 141, 121);
 }
 
-#map {
+/* #map {
     margin-left: 10%;
-    /* margin-bottom: 11%; */
+    /* margin-bottom: 11%; 
+} */
+
+#mapid { 
+    height: 180px; 
 }
 
 .about-p {
