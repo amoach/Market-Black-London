@@ -88,3 +88,31 @@ function initMap() {
 
 // var markerCluster = new MarkerClusterer(map, markers,
 //             {imagePath: `${path}/m`});
+
+function initMap() {
+  const bidhaar = { lat: 51.469801, lng: -0.068252 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 11,
+    center: bidhaar,
+  });
+  const contentString =
+    '<div id="content">' +
+    '<div id="siteNotice">' +
+    "</div>" +
+    '<h1 id="firstHeading" class="firstHeading">Bidhaar</h1>' +
+    '<div id="bodyContent">' +
+    "<p><b>Bidhaar</b>, The African brand incubator </p> " +
+    "</div>" +
+    "</div>";
+  const infowindow = new google.maps.InfoWindow({
+    content: contentString,
+  });
+  const marker = new google.maps.Marker({
+    position: bidhaar,
+    map,
+    title: "Bidhaar",
+  });
+  marker.addListener("click", () => {
+    infowindow.open(map, marker);
+  });
+}
