@@ -15,12 +15,14 @@
          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
          crossorigin="anonymous"
          />
-      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link
-         href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
-         rel="stylesheet"
-         />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
       <!-- <script
          async
          defer
@@ -136,7 +138,8 @@
                      <p class="map-p">
                         You'll find the recommended businesses marked out on the map
                      </p>
-                     <a href="#map-section"></a>
+                     <!-- <a href="#map-section"></a> -->
+                     <div id="mapid"></div>
                   </div>
                </div>
                <!-- <form class="mb-5">
@@ -185,10 +188,20 @@
                               <p class="card-text">All the chocolate they have on offer come directly from Ghana -one of the biggest cocoa exporters in the world. They really do have a way with chocolate here with ranges of flavours for hot chocolates in the winter and ice creams in the summer. They will honestly blow your mind on the vast range of flavours.</p>
                            </div>
                            <div class="card-footer">
-                              <small class="text-muted"><a href="https://www.darksugars.co.uk/">click for website</a></small>
+                              <!-- <small class="text-muted"> -->
+                                  <a target="_blank" href="https://www.darksugars.co.uk/">
+                                    <i class="fa fa-globe"></i>
+                                     <span class="sr-only">Website</span>
+                                  </a>
+                              <!-- </small> -->
                               <a href="#places-section"></a>
                            </div>
                         </div>
+
+                        <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                        </a>
 
                            <div class="card">
                            <img class="card-img-top" src="assets/images/sage.png" alt="Sage Flowers">
@@ -279,9 +292,13 @@
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4ea1288FFsX8p5eIDv8vs6zZ0ij9v51s&libraries=places"></script>
-      <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-      <script src="assets/js/map.js" ></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4ea1288FFsX8p5eIDv8vs6zZ0ij9v51s&libraries=places"></script>
+        <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+        <!-- <script src="assets/js/map.js" ></script> -->
+        <script src="assets/js/map2.js" ></script>
    </body>
    </body>
 </html>
