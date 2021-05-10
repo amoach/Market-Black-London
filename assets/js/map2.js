@@ -15,26 +15,26 @@ const locations = [
     {
         name: "<b>Yo Crackers</b>",
         lat: 51.533433, lng: -0.057119,
-        message: "<b>Yo Crackers</b> personalized stationary and greeting cards",
+        message: "<b>Yo Crackers</b> Personalized stationary and greeting cards",
         image: "yo-m.jpg"
     },
     {
-        name: "Dark Sugars",
+        name: "<b>Dark Sugars</b>",
         lat: 51.523929, lng: -0.071636,
-        message: "Yo Crackers: personalized stationary and greeting cards",
-        image: "bidhaar-map.jpg"
+        message: "<b>Dark Sugars</b> Premium chocolate made from cocoa beans directly from Ghana",
+        image: "darks-m.jpg"
     },
     {
-        name: "Dark Sugars",
+        name: "<b>Dark Sugars</b>",
         lat: 51.480937, lng: -0.000843,
-        message: "Yo Crackers: personalized stationary and greeting cards",
-        image: "bidhaar-map.jpg"
+        message: "<b>Dark Sugars</b> Premium chocolate made from cocoa beans directly from Ghana",
+        image: "darks-m.jpg"
     },
     {
-        name: "Uncle John's Bakery",
+        name: "<b>Uncle John's Bakery</b>",
         lat: 51.584615, lng: -0.076235,
-        message: "Yo Crackers: personalized stationary and greeting cards",
-        image: "bidhaar-map.jpg"
+        message: "<b>Uncle John's Bakery</b> Local freshly baked goods",
+        image: "uncle-m.jpg"
     }, 
     {
         name: "Round Table Books",
