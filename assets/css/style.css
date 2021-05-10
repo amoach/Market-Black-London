@@ -70,7 +70,10 @@ h1 {
 } */
 
 #mapid { 
-    height: 180px; 
+    width: 80vw;
+    height: 80vh;
+    margin-left: 30%;
+    margin-top: -85%;
 }
 
 .about-p {
