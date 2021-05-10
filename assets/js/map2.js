@@ -37,10 +37,10 @@ const locations = [
         image: "uncle-m.jpg"
     }, 
     {
-        name: "Round Table Books",
+        name: "<b>Round Table Books</b>",
         lat: 51.462206, lng: -0.111581,
-        message: "Yo Crackers: personalized stationary and greeting cards",
-        image: "bidhaar-map.jpg"
+        message: "<b>Round Table Books</b> Children's bookstore",
+        image: "round-m.jpg"
     },
     {
         name: "Sage Flowers",
