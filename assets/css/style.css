@@ -39,8 +39,13 @@ body {
     color: rgb(46, 16, 4);
 }
 
+.navbar-toggler {
+    color: rgb(46, 16, 4)!important;
+    border-color: rgb(46, 16, 4)!important;
+}
+
 .bg-light {
-    background-color: #fff!important;
+    background-color: rgb(183, 141, 121)!important;
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link:hover {
@@ -48,7 +53,7 @@ body {
 }
 
 .navbar-expand-lg .navbar-collapse {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(183, 141, 121);
 }
 
 .navbar-toggler {
@@ -386,3 +391,10 @@ textarea:hover {
   color: rgb(37,67,235);
   background: #fff;
 }
+
+/* -------------Media Queries------------- */
+
+@media(max-width: 775px) {
+
+}
+
