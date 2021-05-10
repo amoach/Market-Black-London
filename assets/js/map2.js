@@ -1,22 +1,22 @@
 // my marker locations
 const locations = [
     {
-        name: "Bidhaar",
+        name: "<b>Bidhaar</b>",
         lat: 51.469801, lng: -0.068252,
-        message: "The African brand incubator",
+        message: "<b>Bidhaar</b> The African brand incubator",
         image: "bidhaar-map.jpg"
     },
     {
-        name: "Buster Mantis",
+        name: "<b>Buster Mantis</b>",
         lat: 51.478724, lng: -0.025797,
-        message: "Industrial-chic bar serving island-inspired bar bites & cocktails, along with live music",
+        message: "<b>Buster Mantis</b> Industrial-chic bar serving island-inspired bar bites & cocktails, along with live music",
         image: "buster-m.jpg"
     },
     {
-        name: "Yo Crackers",
+        name: "<b>Yo Crackers</b>",
         lat: 51.533433, lng: -0.057119,
-        message: "Yo Crackers: personalized stationary and greeting cards",
-        image: "bidhaar-map.jpg"
+        message: "<b>Yo Crackers</b> personalized stationary and greeting cards",
+        image: "yo-m.jpg"
     },
     {
         name: "Dark Sugars",
