@@ -397,9 +397,26 @@ textarea:hover {
 
     .logo {
     width: 50vw;
-    margin-left: 25%;
+    margin-left: 5%;
     margin-bottom: 5%;
     }
 
+    .places-p {
+        margin-left: 19%;
+    }
+}
+
+@media(max-width: 1068px) {
+    .carousel {
+        margin-top: 10%;
+    }
+    
+    .places-p {
+        margin-left: 17%;
+    }
+
+    .contact-p {
+        margin-left: 23%;
+    }
 }
 
