@@ -420,3 +420,24 @@ textarea:hover {
     }
 }
 
+@media(max-width: 947px) {
+    .places-header {
+        margin-left: 40%;
+    }
+
+    .places-p {
+        margin-left: 13%;
+    }
+
+    .contact-header {
+        margin-left: 43%;
+    }
+
+    .contact-p {
+        margin-left: 20%;
+    }
+
+    #form {
+        margin-left: 24%;
+    }
+}
