@@ -122,8 +122,9 @@ h1 {
 
 .places-p {
     color: rgb(46, 16, 4);
-    margin-left: 30%;
+    margin-left: 24%;
     font-family: ABeeZee;
+    font-size: 1.25rem;
 }
 
 .places-container {
@@ -138,6 +139,11 @@ h1 {
 
 .card {
     margin-top: 5%;
+}
+
+.card-text {
+    font-family: ABeeZee;
+    font-size: 0.75rem;
 }
 
 .d-block {
