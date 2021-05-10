@@ -139,6 +139,7 @@ h1 {
 
 .card {
     margin-top: 5%;
+    border-color: rgb(46, 16, 4);
 }
 
 .card-title {
@@ -155,8 +156,15 @@ h1 {
     color: rgb(46, 16, 4);
 }
 
+.card-footer {
+    padding: .75rem 1.25rem;
+    background: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+}
+
 a {
     color: rgb(46, 16, 4);
+    text-align: center;
 }
 
 a:hover {
