@@ -10,7 +10,7 @@ const locations = [
         name: "Buster Mantis",
         lat: 51.478724, lng: -0.025797,
         message: "Industrial-chic bar serving island-inspired bar bites & cocktails, along with live music",
-        image: "bidhaar-map.jpg"
+        image: "buster-m.jpg"
     },
     {
         name: "Yo Crackers",
