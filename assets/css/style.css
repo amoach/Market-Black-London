@@ -394,7 +394,9 @@ textarea:hover {
 
 /* -------------Media Queries------------- */
 
-@media(max-width: 775px) {
-
+@media(max-width: 1161px) {
+    .contact-p {
+        margin-left: 25%;
+    }
 }
 
