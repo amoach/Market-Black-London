@@ -91,6 +91,16 @@ h1 {
     margin-top: 7%;
 }
 
+.headline {
+    font-family: ABeeZee;
+    color: rgb(46, 16, 4);
+    font-size: 1.5rem;
+    width: 60vw;
+    margin-left: -25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
 .map-header {
     color: rgb(37,67,235);
     margin-left: 1%;
