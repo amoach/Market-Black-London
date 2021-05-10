@@ -17,7 +17,7 @@ body {
 .logo {
     width: 40vw;
     /* background-color: rgb(46, 16, 4); */
-    margin-left: 30%;
+    margin-left: 7%;
 }
 
 .carousel {
@@ -25,6 +25,7 @@ body {
     max-height: 200vh;
     align-content: center;
     margin-left: 30%;
+    margin-top: 20%;
 }
 
 .navbar {
@@ -148,7 +149,7 @@ h1 {
 
 .places-p {
     color: rgb(46, 16, 4);
-    margin-left: 24%;
+    margin-left: 5%;
     font-family: ABeeZee;
     font-size: 1.25rem;
     text-align: center;
