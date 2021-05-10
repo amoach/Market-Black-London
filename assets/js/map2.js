@@ -49,10 +49,10 @@ const locations = [
         image: "sage-m.jpg"
     },
     {
-        name: "The Black Butcher",
+        name: "<b>The Black Butcher</b>",
         lat: 51.549469, lng: -0.054751,
-        message: "Yo Crackers: personalized stationary and greeting cards",
-        image: "bidhaar-map.jpg"
+        message: "<b>The Black Butcher</b> Fresh A grade meat butcher",
+        image: "butcher-m.jpg"
     },
 ];
 
