@@ -43,10 +43,10 @@ const locations = [
         image: "round-m.jpg"
     },
     {
-        name: "Sage Flowers",
+        name: "<b>Sage Flowers</b>",
         lat: 51.466241, lng: -0.066484,
-        message: "Yo Crackers: personalized stationary and greeting cards",
-        image: "bidhaar-map.jpg"
+        message: "<b>Sage Flowers</b> Floristry store and studio",
+        image: "sage-m.jpg"
     },
     {
         name: "The Black Butcher",
