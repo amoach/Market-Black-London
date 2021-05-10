@@ -35,6 +35,22 @@ body {
     margin-top: 5%;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(46, 16, 4);
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color: rgb(37,67,235);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    background-color: rgb(255, 255, 255);
+}
+
 .navbar-toggler {
     margin-left: 80%;
 }
@@ -55,6 +71,7 @@ body {
     font-family: ABeeZee;
     font-size: 25px;
     margin-top: 15%;
+    margin-bottom: 15%;
     color: rgb(46, 16, 4);
     padding: 0;
     text-align: center;
@@ -176,7 +193,7 @@ a {
 }
 
 a:hover {
-    color: rgb(180, 0, 0);
+    color: rgb(37,67,235);
 }
 
 .d-block {
