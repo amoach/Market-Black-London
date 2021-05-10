@@ -151,6 +151,7 @@ h1 {
     margin-left: 24%;
     font-family: ABeeZee;
     font-size: 1.25rem;
+    text-align: center;
 }
 
 .places-container {
@@ -439,5 +440,39 @@ textarea:hover {
 
     #form {
         margin-left: 24%;
+    }
+}
+
+@media(max-width: 771px) {
+    .logo {
+         width: 70vw;
+    }
+
+    .navbar {
+        margin-top: 10%;
+    }
+
+    .carousel {
+        margin-top: 10%;
+        max-width: 100vw;
+        max-height: 400vh;
+        margin-left: 0%;
+    }
+
+    .headline {
+        width: 70%;
+        margin-left: 17%;
+    }
+
+    .contact-header {
+        margin-left: 42%;
+    }
+
+    .contact-p {
+        margin-left: 14%;
+    }
+
+    #form {
+        margin-left: 20%;
     }
 }
