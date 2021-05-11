@@ -200,7 +200,7 @@ a:hover {
 
 .d-block {
     margin-top: 10%;
-    height: 30vw;
+    height: 50vh;
     object-fit: cover;
 }
 
@@ -480,47 +480,60 @@ textarea:hover {
 @media(max-width: 375px) {
     .carousel {
         margin-top: 40%;
-        width: 130vw;
-        height: 100vh!important;
+        width: 100vw;
+        height: 50vh !important;
+        margin-left: 20%;
     }
 
     .headline {
-        width: 130%;
+        width: 100%;
+        margin-left: -1%;
+        margin-bottom: -50%;
+    }
+
+    .about-header {
+        margin-left: 45%;
+        margin-top: 60%;
     }
 
     .about-p {
-        width: 130%;
-        margin-left: 17%;
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    .map-container {
+        width: 100%;
+        background-color: #fff;
     }
 
     .map-header {
-        margin-left: 57%;
+        margin-left: 44%;
     }
 
     .map-p {
-        width: 130%;
-        margin-left: 17%;
+        width: 100%;
+        margin-left: 20%;
     }
 
     #map {
         height: 60vh;
         width: 110vw;
-        margin-left: 24%;
+        margin-left: 11%;
     }
 
     .places-header {
-        width: 120%;
-        margin-left: 47%;
+        width: 100%;
+        margin-left: 44%;
     }
 
     .places-p {
-        width: 130%;
-        margin-left: 17%;
+        width: 100%;
+        margin-left: 23%;
     }
 
     .card {
-        margin-left: 27%;
-        width: 110%;
+        margin-left: 24%;
+        width: 100%;
     }
 
     .card-img-top {
@@ -530,6 +543,7 @@ textarea:hover {
 
     .contact-container {
         width: 100%;
+        background-color: #fff;
     }
 
     .contact-header {
@@ -537,13 +551,13 @@ textarea:hover {
     }
 
     .contact-p {
-       width: 130%;
+       width: 100%;
        text-align: center; 
-       margin-left: 17%;
+       margin-left: 22%;
     }
 
     #form {
         width: 20vw!important;
-        margin-left: 17%;
+        margin-left: 2%;
     }
 }
