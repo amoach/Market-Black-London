@@ -1,8 +1,8 @@
 function sendMail(form) {
-    emailjs.send("gmail", "market", {
+    emailjs.send("service_6081s2m", "Market", {
         "from_name": form.name.value,
         "from_email": form.emailaddress.value,
-        "marketblack_enquiry": form.message.value
+        "message": form.message.value
     })
     .then(
         function(response) {

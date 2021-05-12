@@ -122,11 +122,9 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 #### Home
 
-* The Homepage has button features which enables you to navigate three different pages, along with the navbar at top left side:
+* The Home landing section has an automatic carousel feature which displays images which relate to black businesses along with a fixed navbar navigating the rest of the site:
 
-    1. First image is of Cape coast beach with buttons to take you to the the about page. Image was taken from here: (https://unsplash.com/photos/OOOLSgre3RE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    2. The second image is one of Afronation festival with a button at the center which will take you to the festivals page. Image was taken from here: (https://unsplash.com/photos/cUUvJlhiceU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    3. The third image is of Elmina castle door with a centered button that takes you to the Elmina page. Image was taken from here: (https://unsplash.com/photos/EoJ8bZnQOmk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    1.
 
 #### About us 
 
