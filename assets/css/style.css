@@ -124,7 +124,7 @@ h1 {
 .map-header {
     color: rgb(37,67,235);
     margin-left: 1%;
-    margin-top: 11%;
+    margin-top: 7%;
 }
 
 .map-p {
@@ -220,6 +220,7 @@ a:hover {
 
 .contact-container {
     background-color: rgb(183, 141, 121);
+    width: 100%
 }
 
 .contact-header {
@@ -402,7 +403,7 @@ textarea:hover {
 
 /* -------------Media Queries------------- */
 
-@media(max-width: 1161px) {
+/* @media(max-width: 1161px) {
     .contact-p {
     margin-left: 1%;
     }
@@ -424,11 +425,11 @@ textarea:hover {
     }
     
     .places-p {
-        margin-left: 17%;
+        margin-left: 2%;
     }
 
     .contact-p {
-        margin-left: 23%;
+        margin-left: 15%;
     }
 }
 
@@ -488,7 +489,7 @@ textarea:hover {
     #form {
         margin-left: 20%;
     }
-}
+} */
 
 @media(max-width: 375px) {
     .carousel {
@@ -500,19 +501,19 @@ textarea:hover {
 
     .headline {
     width: 200%;
-    margin-left: 21%;
+    margin-left: 35%;
     margin-bottom: -50%;
     margin-top: 40%;
 }
 
     .about-header {
-        margin-left: 0%;
+        margin-left: 13%;
         margin-top: 60%;
     }
 
     .about-p {
     width: 100%;
-    margin-left: 0%;
+    margin-left: 7%;
 }
 
     .map-container {
@@ -520,12 +521,12 @@ textarea:hover {
     }
 
     .map-header {
-    margin-left: 4%;
+    margin-left: 13%;
 }
 
     .map-p {
     width: 100%;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
     #map {
@@ -536,16 +537,16 @@ textarea:hover {
 
     .places-header {
         width: 100%;
-        margin-left: 21%;
+        margin-left: 27%;
     }
 
     .places-p {
         width: 100%;
-        margin-left: 0%;
+        margin-left: 9%;
     }
 
     .card {
-        margin-left: 0%;
+        margin-left: 10%;
         width: 100%;
     }
 
@@ -559,29 +560,29 @@ textarea:hover {
     }
 
     .contact-header {
-        margin-left: 30%;
+        margin-left: 39%;
     }
 
     .contact-p {
     width: 100%;
     text-align: center;
-    margin-left: 1%;
+    margin-left: 8%;
     }
 
     #form {
-        width: 5vw!important;
-        margin-left: 2%;
+        width: 100%!important;
+        margin-left: 8%;
     }
 
     input {
-    width: 330px;
+    width: 100%;
     }
 
     textarea {
-    width: 330px;
+    width: 100%;
     }
 
     #submit {
-    width: 330px;
+    width: 100%;
     }
 }

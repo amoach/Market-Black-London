@@ -122,42 +122,59 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 #### Home
 
-* The Home landing section has an automatic carousel feature which displays images which relate to black businesses along with a fixed navbar navigating the rest of the site:
+* The Home landing section has an automatic carousel feature which displays images which relate to black businesses along with a fixed navbar navigating the rest of the site. Images for the carousel were taken from here:
 
-    1.
+    1. First image of group of women:
+    (https://unsplash.com/photos/rWxMfj9y0F4) 
+
+    2. Second image of a florists:
+    (https://unsplash.com/photos/6IDXtm-HRU4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+    3. Third image of a barber:
+    (https://unsplash.com/photos/2ZjKLOe7vOI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+    4. Fourth image of plated:
+    (https://unsplash.com/photos/XInJNV422eo)
+
+    5. Fifth image of women walking:
+    (https://unsplash.com/photos/24vjqGCu0pI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 #### About us 
 
-* The about us page consists of two sections:
+* Headline and summary of why Market Black London was created and what to expect from the site. The facts used in this section were taken from the following sources:
+ - (https://www.thepromota.com/black-consumers-are-worth-300-billion/)
+ - (https://www.ft.com/content/4f7ab34c-5a70-4cae-b04d-1c90ed1a230e)
+ - (https://www.elle.com/uk/life-and-culture/a33466517/black-pound-day/)
+ - (https://www.stylist.co.uk/life/black-pound-day-black-owned-businesses-support-what-is-it/402465)
 
-    1. The first you have a polaroid like photo of the founders - which I own the rights to.
-    2. The next section is all the relevant information of the aims of Ghana based experiences sets out to achieve
-    3. The background image is a photograph of a fisherman village in Ada, Ghana. Image was taken from here: (https://unsplash.com/photos/EoT_Ut_cj_Q)
 
-#### Festivals
+#### Search
 
-* The page is sectioned off to 2 columns with the photos on the left side and text on the right. User is then able to access the contact page and book that experience by clicking the 'BOOK' button beneath the text.
+* This section is for the user to display the recommended locations on a london map
+    1. Paragraph instructing user on the map usage
+    2. Map was added by using Leaflet API
+    - The additional map functions called popups allowed me to add small images of the business and a short summary line
 
-    1. First image of Afronation. Image was taken from here: (https://unsplash.com/photos/cUUvJlhiceU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    2. Second image of pool hangout. Image was taken from here: (https://images.unsplash.com/photo-1572477722570-8a909f42ca6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=humphrey-muleba-cUUvJlhiceU-unsplash.jpg)
-    3. Third image of Soho bar, Ghana. Image was taken from here: (https://www.tripadvisor.co.uk/Restaurant_Review-g293797-d7284564-Reviews-Soho_Restaurant-Accra_Greater_Accra.html#photos;aggregationId=101&albumid=101&filter=7&ff=118002330)
+#### Places to go 
 
-#### Elmina 
-
-* The page is sectioned off to 2 columns with the photos on the left side and text on the right. User is then able to access the contact page and book that experience by clicking the 'BOOK' button beneath the text.
+* This section is for the user to get more information about the recommended businesses
+* Bootstrap cards added to provide images of the businesses and what to expect from them
     
-    1. First image of Kakum forest. Image was taken from here: (https://unsplash.com/photos/Y5biRJCR-Q4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    2. Second image of Elmina castle door. Image was taken from here: (https://unsplash.com/photos/r6Wy1qSuFnA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    3. Third image of Akwidaa, Ghana. Image was taken from here: (https://unsplash.com/photos/XOdKX5WtPTc)
+    1. First card - Bidhaar store with image taken from here: (https://ndaane.com/blog/new-in-bidhaar-concept-store-why-you-need-to-it-check-out)
+    2. Second card - Buster Mantis bar with image taken from here: (https://www.bustermantis.com/home/2017/1/17/glqkw7l9o08h38d0869i7eopn0g8en)
+    3. Third card - Dark Sugars with image was taken from here: (https://www.darksugars.co.uk/collections/chocolates)
+    4. Fourth card - Sage Flowers with image taken from here: (https://sageflowers.co.uk/)
+    5. Fifth card - Yo Crackers with image taken from here: (https://www.instagram.com/p/CIGFMEsAGtP/)
+    6. Sixth card - Uncle John's Bakery with image taken from here: (https://theunclejohnsbakery.com/our-story/)
+    7. Seventh card - Round Table Bookstore with image taken from here: (https://www.roundtablebooks.co.uk/about)
+    8. Eigth card - The Black Butcher with image taken from here: (https://twitter.com/tootingnewsie/status/1296769095778672649)
 
-#### Inspirations
-
-* Built with an external link to a Youtube video by Visit Ghana. With the intention for the user to see moving images and a summary of to expect on your visit to Ghana.
+- They all had their relevant websites and social links provided at the bottom of the cards, with icons taken from font awesome
 
 #### Contact
 
-1. Contact page consists of the logo header, image background and contact form with required fields.
-2. The background image is a photograph of a fisherman village in Ada, Ghana. Image was taken from here: (https://unsplash.com/photos/EoT_Ut_cj_Q)
+* This section consists of the header and a paragraph encouraging the user to get in touch
+* A contact form has been added to complete and as an email, with code taken from here: (https://codepen.io/matmarsiglio/pen/HLIor)
 
 
 ## Wireframe designs
@@ -166,17 +183,15 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 * The screenshots were taken from a desktop screen of 1183px x 821px
 
-![HOMEPAGE](https://user-images.githubusercontent.com/70138332/112832181-d9dea380-908c-11eb-9fa6-8ec537e70034.jpg)
+![HOME](https://user-images.githubusercontent.com/70138332/112832181-d9dea380-908c-11eb-9fa6-8ec537e70034.jpg)
 
-![ABOUT PAGE](https://user-images.githubusercontent.com/70138332/112832377-23c78980-908d-11eb-8a20-d28a853178a4.jpg)
+![ABOUT](https://user-images.githubusercontent.com/70138332/112832377-23c78980-908d-11eb-8a20-d28a853178a4.jpg)
 
-![FESTIVALS PAGE](https://user-images.githubusercontent.com/70138332/112832520-570a1880-908d-11eb-8c80-b59c7b0d6981.jpg)
+![SEARCH](https://user-images.githubusercontent.com/70138332/112832520-570a1880-908d-11eb-8c80-b59c7b0d6981.jpg)
 
-![ELMINA PAGE](https://user-images.githubusercontent.com/70138332/112832637-81f46c80-908d-11eb-9a99-7d0ed13d65f6.jpg)
+![PLACES TO GO](https://user-images.githubusercontent.com/70138332/112832637-81f46c80-908d-11eb-9a99-7d0ed13d65f6.jpg)
 
-![INSPIRATION](https://user-images.githubusercontent.com/70138332/112832800-bc5e0980-908d-11eb-88fd-e848168c0812.jpg)
-
-![CONTACT](https://user-images.githubusercontent.com/70138332/112832752-ad775700-908d-11eb-9145-7b3720a85d4f.jpg)
+![CONTACT](https://user-images.githubusercontent.com/70138332/112832800-bc5e0980-908d-11eb-88fd-e848168c0812.jpg)
 
 
 ## Responsive Design
@@ -201,19 +216,20 @@ There were also greys used for some things like the background overlay of home b
 
 ### Nav Bar
 
-* Navbar with a dropdown menu featuring the experiences on offer, which all collapses into a hamburger version on mobile screens
+* Navbar which all collapses into a hamburger version on mobile screens
 
 * Fixed at the top as the default position users are familiar in navigating. Created to float and scroll along as the user scrolls down the page for easy access to the menu regardless where they are on the page.
 
 
 ### Contact Information
 
-* Users have the option of contacting via the contact page and this goes for any queries they may have as well as making a booking of their choice.
+* Users have the option of contacting via the contact section and this goes for any queries they may have as well as nominating a business.
 
 ## Languages
 
 * HTML 
 * CSS 
+* JS
 
 ## Libraries
 
@@ -227,10 +243,15 @@ There were also greys used for some things like the background overlay of home b
 * [Gitpod](https://www.gitpod.io) 
 * [Github](https://github.com/) - hosting repository and website.
 * [Figma](https://www.figma.com/) - used for creation of wireframes.
+* [Leaflet] (https://leafletjs.com/examples/quick-start/) - Interactive map
+* [Google Geocoder] (https://developers.google.com/maps/documentation/geocoding/overview) - used to find the map coordinates for the markers. 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used to test the website and screenshot was taken for the top of README page.
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
+* [Diffchecker] (https://www.diffchecker.com/diff) - used for debugging.
 * [w3 html validator](https://validator.w3.org/) - used to validate my html code.
 * [w3 css validator](https://jigsaw.w3.org/) - used to validate my css code.
+* [Autoprefixer CSS](https://autoprefixer.github.io/) - used to validate my css code.
+* [JSHint] (https://jshint.com/) - used to validate JS.
 
 ## Testing 
 
@@ -243,11 +264,11 @@ All of my code passed the following validation tests:
 Screenshots of validations for each page of code can be found [here](https://github.com/amoach/Ghana-based/tree/main/assets/images/testing)
 
 ### Testing Features
-**
-    * The navbar was tested to collapse as well as with the dropdown menu also the responsiveness in mobile view as a hamburger.
-    * Different screen sizes were looked at in order to see how the responsiveness is on different devices.
-    * Nav links were tested to ensure they were being correctly linked to the intended internal and external sites.
-    * Friend was also asked to preview the site on his xl screen and iphone 5 device.
+
+* The navbar was tested to collapse as well as with the dropdown menu also the responsiveness in mobile view as a hamburger.
+* Different screen sizes were looked at in order to see how the responsiveness is on different devices.
+* Nav links were tested to ensure they were being correctly linked to the intended internal and external sites.
+* Friend was also asked to preview the site on his xl screen and iphone 5 device.
 
 ### Testing responsiveness
 
@@ -259,7 +280,7 @@ I tested the website on the following web browsers:
 - Google Chrome 
 - Mozilla Firefox 
 
-##Testing User Stories from User Experience (UX) Section
+## Testing User Stories from User Experience (UX) Section
 
 * First Time Visitor Goals
 - As a first time vistor, it essential to understand the reason the site was created and what the intentions for the user are within seconds of landing on the page.
@@ -277,6 +298,12 @@ I tested the website on the following web browsers:
 * Frequent User Goals
 - A frequent user would want this to be an ongoing community being built without limitations. This could include facebook groups, local meetups in cities internationally.
 - This can all be enquired via the contact page submitting a form and staying in the loop about new advances with Ghana Based.
+
+## Bugs
+* I came across various bugs when creating the site:
+
+1. Getting Google maps API to display on the site
+- I had issues with the Google Maps API 
 
 ## Issues 
 
