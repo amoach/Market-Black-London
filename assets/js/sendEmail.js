@@ -14,3 +14,7 @@ function sendMail(form) {
     );
     return false;  
 }
+
+(function() {
+            emailjs.init('user_rnYN5Oi0RNijEbPKvaLUC');
+        })();
