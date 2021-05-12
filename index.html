@@ -22,7 +22,15 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
         crossorigin="" />
-    
+   
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script>
+        (function() {
+            emailjs.init('user_rnYN5Oi0RNijEbPKvaLUC');
+        })();
+        </script>
    </head>
    <body>
       <!--Header Section-->
@@ -301,11 +309,10 @@
                      <h1 class="contact-header" id="contact">contact</h1>
                      <p class="contact-p">We will keep going until all black-owned business get their recognition, so we'll need your help. Let us know of any others to be added on Market Black and any enquiries you may have, please fill out the form below<p>
 
-                     <form id="form" class="contact-form">
-                        <form onsubmit="return sendMail(this);" method="POST">
-                        <input id="name" type="text" placeholder="name">
-                        <input id="email" type="text" placeholder="email">
-                        <textarea id="message" type="text" placeholder="message"></textarea>
+                     <form id="form" class="contact-form" onsubmit="return sendMail(this);">
+                        <input id="name" name="name" type="text" placeholder="name">
+                        <input id="email" name="emailaddress" type="text" placeholder="email">
+                        <textarea id="message" name="message" type="text" placeholder="message"></textarea>
                     <input id="submit" type="submit" value="submit">
                     </form>
 
@@ -330,9 +337,6 @@
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
         <script src="assets/js/map2.js" ></script>
-        <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-        </script>
         <script type="text/javascript"></script>
         </script>
         <script src="assets/js/sendEmail.js"></script>

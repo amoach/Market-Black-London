@@ -87,38 +87,38 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 #### User Objectives
 
-- 
+- Engage with anyone on the search for black-owned businesses in London
+- Users can also enquire about any of the businesses by submitting the contact form
+- Users are also encouraged to take part in growing the 'Market Black London' community and platform by nominating businesses not already listed
 
 #### Project Goals
 
 - Creating a clear, aesthetically pleasing website which is also easily navigatable for the user.
 - Having a theme which is consistent throughout the website.
-- Including all relevant information in regards to the services provided alongside any other navigational things which compliment the user experience
+- Including all relevant information in regards to the black-owned businesses to be accessed 
+- Interactivity in different forms throughout the site to encourage engagement
 
 # Structure
 
-- Starts with the homepage 
-- Ultimately the user would want to first of all find out about all the different experiences that can be booked on the site, therefore, pages to a couple of them can also be accessed on the homepage while scrolling in a gallery like format.
-- Pages which can be accessed include the different experiences, about page, gallery and a contact page. Navigation menu bar also makes it easy to access to all pages regardless which page the user is on.
+- Starts with the landing page with logo at the very top and navbar right underneath
+- Automatic moving carousel with a series of images centered  
+- Ultimately the user would want to first of all find out what motivated the idea of Market Black London so a little background provided in the about section
+- Site is one page, however the different sections of the page can be accessed via the fixed navbar
 
 ## Design Process
 
-- Initial research was done in order to see how other competitors went about their website design.
-- The wireframe was then designed on figma which made it easy to visualize as well as successfully make it consistent throughout.
-- The overall aim was to show the user the beauty and amazing things Ghana has to offer and therefore having a gallery like concept and feel to all pages was the best way to showcase it all. Allowing the user to see the photos clearly in big enough photos to really give the intial feel of what Ghana is about.
-- End to end photos on the homepage alongside a continuous scroll was also thought to be a good feature in order to give a good first impression and insight from the get go.
-- The gallery like theme was continued onto the other pages in order to keep it all consistent and still giving that showcasing Ghana feel. So on the experiences pages, there are the photos in a single column of what to expect alongside the text explaining it all. This again was intended to have that continuous feel as you scroll down to find out more.
-- Contact page could not have a photo to illustrate and therefore contains the first image from the homepage as the background. This keeps it consistent as well as making it an overall appealling page to be on.
+- The wireframe was designed on figma which made it easy to visualize as well as successfully make it consistent throughout.
+- The overall aim was to simply educate the user the importance of being from black businesses and how to access them
+- Every other section has a pale brown background in order to seperate and therefore not bore the user with what could feel like endless scrolling
+- The aim was to also have an overall minimal and clean look for info to be digested. And also goes for the choice of colour palette which was thought about in a way that they marry well together
 
 #### Page Structure
 
-* I wanted the site to remain simple and easy to navigate, therefore the use of sections was kept to a minimum on each page. Most of the pages remain viewable in full without scrolling when using a desktop device. The reason for this design choice, is to achieve the purpose set out to make the user experience quick and easy to locate the information they require.
+* I wanted the site to remain simple and easy to navigate, therefore the use of sections was kept to a minimum. The reason for this design choice, is to achieve the purpose set out to make the user experience quick and easy to locate the information they require.
 
-* With the exception of the homepage, all pages consist of the same structure when it comes to the logo at the header, navigation bar at the top left and social media link buttons at the bottom right of footer. 
+* With the exception of the landing page section, all sections consist of the same structure when it comes to the logo at the header, title with headlining paragraph following with their relevant content.
 
-* Homepage has images with buttons in order to navigate the relevant pages according to the images and these include about, contact, festivals and elmina.
-
-* Fixed responsive navbar on each page contains links to all pages. The 'Experiences' section also has a dropdown when clicked and the different experiences can be accessed on all pages. It also floats on mobile devices as you scroll and menu also then takes up the full width of the screen.
+* Fixed responsive navbar throughout the site links to all sections. It also stays fixed on mobile devices as you scroll and menu also then reduced to hamburger toggle bar.
 
 #### Home
 
