@@ -1,8 +1,7 @@
 # Market-Black-London
 ## Code Institute: Milestone Project 2 - Amanda Achampong
 
-![screens](https://user-images.githubusercontent.com/70138332/112828803-1bb91b00-9088-11eb-90d1-eadf73b87a1b.png)
-
+![screens ](https://user-images.githubusercontent.com/70138332/118381909-c610e180-b5e7-11eb-8eb4-e81db49049ff.png)
 
 ---
 Market Black London is a website platform idea developed from the "Black Pound Day" movement in order to give more exposure to 
@@ -183,7 +182,7 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 * The screenshots were taken from a desktop screen of 1183px x 821px
 
-![HOME](https://user-images.githubusercontent.com/70138332/112832181-d9dea380-908c-11eb-9fa6-8ec537e70034.jpg)
+![Home](https://user-images.githubusercontent.com/70138332/118381965-27d14b80-b5e8-11eb-990a-fb7525d1253f.jpg)
 
 ![ABOUT](https://user-images.githubusercontent.com/70138332/112832377-23c78980-908d-11eb-8a20-d28a853178a4.jpg)
 
