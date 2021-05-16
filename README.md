@@ -9,7 +9,7 @@ black-owned businesses and for the user to discover where they are located and f
 also so it can be built upon so the user can also nominate and suggest other black-owned business not already listed to create 
 awareness and exposure.
 
-Live version of the website can be accessed here: (https://amoach.github.io/Market-Black-London/)
+Live version of the website can be accessed [here](https://amoach.github.io/Market-Black-London/)
 
 # Project Requirements:
 
@@ -123,28 +123,23 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 * The Home landing section has an automatic carousel feature which displays images which relate to black businesses along with a fixed navbar navigating the rest of the site. Images for the carousel were taken from here:
 
-    1. First image of group of women:
-    (https://unsplash.com/photos/rWxMfj9y0F4) 
+    1. First image of [group of women](https://unsplash.com/photos/rWxMfj9y0F4) 
 
-    2. Second image of a florists:
-    (https://unsplash.com/photos/6IDXtm-HRU4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    2. Second image of a [florists](https://unsplash.com/photos/6IDXtm-HRU4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    3. Third image of a barber:
-    (https://unsplash.com/photos/2ZjKLOe7vOI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    3. Third image of a [barber](https://unsplash.com/photos/2ZjKLOe7vOI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    4. Fourth image of plated:
-    (https://unsplash.com/photos/XInJNV422eo)
+    4. Fourth image of [plated food](https://unsplash.com/photos/XInJNV422eo)
 
-    5. Fifth image of women walking:
-    (https://unsplash.com/photos/24vjqGCu0pI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    5. Fifth image of [women walking](https://unsplash.com/photos/24vjqGCu0pI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 #### About us 
 
 * Headline and summary of why Market Black London was created and what to expect from the site. The facts used in this section were taken from the following sources:
- - (https://www.thepromota.com/black-consumers-are-worth-300-billion/)
- - (https://www.ft.com/content/4f7ab34c-5a70-4cae-b04d-1c90ed1a230e)
- - (https://www.elle.com/uk/life-and-culture/a33466517/black-pound-day/)
- - (https://www.stylist.co.uk/life/black-pound-day-black-owned-businesses-support-what-is-it/402465)
+ - [The Promota Africa](https://www.thepromota.com/black-consumers-are-worth-300-billion/)
+ - [The Financial Times](https://www.ft.com/content/4f7ab34c-5a70-4cae-b04d-1c90ed1a230e)
+ - [Elle](https://www.elle.com/uk/life-and-culture/a33466517/black-pound-day/)
+ - [Stylist](https://www.stylist.co.uk/life/black-pound-day-black-owned-businesses-support-what-is-it/402465)
 
 
 #### Search
@@ -159,21 +154,21 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 * This section is for the user to get more information about the recommended businesses
 * Bootstrap cards added to provide images of the businesses and what to expect from them
     
-    1. First card - Bidhaar store with image taken from here: (https://ndaane.com/blog/new-in-bidhaar-concept-store-why-you-need-to-it-check-out)
-    2. Second card - Buster Mantis bar with image taken from here: (https://www.bustermantis.com/home/2017/1/17/glqkw7l9o08h38d0869i7eopn0g8en)
-    3. Third card - Dark Sugars with image was taken from here: (https://www.darksugars.co.uk/collections/chocolates)
-    4. Fourth card - Sage Flowers with image taken from here: (https://sageflowers.co.uk/)
-    5. Fifth card - Yo Crackers with image taken from here: (https://www.instagram.com/p/CIGFMEsAGtP/)
-    6. Sixth card - Uncle John's Bakery with image taken from here: (https://theunclejohnsbakery.com/our-story/)
-    7. Seventh card - Round Table Bookstore with image taken from here: (https://www.roundtablebooks.co.uk/about)
-    8. Eigth card - The Black Butcher with image taken from here: (https://twitter.com/tootingnewsie/status/1296769095778672649)
+    1. First card - Bidhaar store with image taken from [here](https://ndaane.com/blog/new-in-bidhaar-concept-store-why-you-need-to-it-check-out)
+    2. Second card - Buster Mantis bar with image taken from [here](https://www.bustermantis.com/home/2017/1/17/glqkw7l9o08h38d0869i7eopn0g8en)
+    3. Third card - Dark Sugars with image was taken from [here](https://www.darksugars.co.uk/collections/chocolates)
+    4. Fourth card - Sage Flowers with image taken from [here](https://sageflowers.co.uk/)
+    5. Fifth card - Yo Crackers with image taken from [here](https://www.instagram.com/p/CIGFMEsAGtP/)
+    6. Sixth card - Uncle John's Bakery with image taken from [here](https://theunclejohnsbakery.com/our-story/)
+    7. Seventh card - Round Table Bookstore with image taken from [here](https://www.roundtablebooks.co.uk/about)
+    8. Eigth card - The Black Butcher with image taken from [here](https://twitter.com/tootingnewsie/status/1296769095778672649)
 
 - They all had their relevant websites and social links provided at the bottom of the cards, with icons taken from font awesome
 
 #### Contact
 
 * This section consists of the header and a paragraph encouraging the user to get in touch
-* A contact form has been added to complete and as an email, with code taken from here: (https://codepen.io/matmarsiglio/pen/HLIor)
+* A contact form has been added to complete and as an email, with code taken from [here](https://codepen.io/matmarsiglio/pen/HLIor)
 
 
 ## Wireframe designs
@@ -184,13 +179,13 @@ Create a user centric website using front end technologies - HTML5 - CSS3 and su
 
 ![Home](https://user-images.githubusercontent.com/70138332/118381965-27d14b80-b5e8-11eb-990a-fb7525d1253f.jpg)
 
-![ABOUT](https://user-images.githubusercontent.com/70138332/112832377-23c78980-908d-11eb-8a20-d28a853178a4.jpg)
+![About](https://user-images.githubusercontent.com/70138332/118382767-87cbf000-b5f0-11eb-8a33-c7b710e3f23b.jpg)
 
-![SEARCH](https://user-images.githubusercontent.com/70138332/112832520-570a1880-908d-11eb-8c80-b59c7b0d6981.jpg)
+![Search](https://user-images.githubusercontent.com/70138332/118382808-ceb9e580-b5f0-11eb-8247-93dfea933b7a.jpg)
 
-![PLACES TO GO](https://user-images.githubusercontent.com/70138332/112832637-81f46c80-908d-11eb-9a99-7d0ed13d65f6.jpg)
+![Places to go](https://user-images.githubusercontent.com/70138332/118382822-ee510e00-b5f0-11eb-81d1-3677465ae3c3.jpg)
 
-![CONTACT](https://user-images.githubusercontent.com/70138332/112832800-bc5e0980-908d-11eb-88fd-e848168c0812.jpg)
+![Contact](https://user-images.githubusercontent.com/70138332/118382827-032da180-b5f1-11eb-8013-396b0521906e.jpg)
 
 
 ## Responsive Design
@@ -204,11 +199,11 @@ This required me to decide how best the content should be displayed on smaller d
 
 Colour Palette - I chose three colours which were either taken from the photos used on the website or just one I thought would work well with the theme and be complimentary to the overall look. I also ensured there was continuity throughout the site.
 
-- ![dummy_20x20__BB9302](https://user-images.githubusercontent.com/70138332/112834978-92f2ad00-9090-11eb-9380-a49b26a12051.png) `RGB(187, 147, 2)` - Buttons
-- ![#8A6C00](https://via.placeholder.com/15/8A6C00/000000?text=+) `#8A6C00` - buttons hover
-- ![dummy_20x20__111](https://user-images.githubusercontent.com/70138332/112835917-d26dc900-9091-11eb-8bc5-e1961b3f97e1.png) `#000` -Text
-- ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`-  Button text and social media button logos
-- ![dummy_20x20__ffdcb1](https://user-images.githubusercontent.com/70138332/112835245-ecf37280-9090-11eb-9513-a56f11b70407.png) `#ffdcb1` -Homepage logo, buttons hover
+- ![2E1005](https://user-images.githubusercontent.com/70138332/118383118-1c375200-b5f3-11eb-954c-38e39cc04438.jpg) `rgb(46, 16, 4)` - Logo, text, form border, card borders
+- ![B78D79](https://user-images.githubusercontent.com/70138332/118383206-b4353b80-b5f3-11eb-8e38-71fe63c3534c.jpg) `rgb(183, 141, 121)` - Navbar, background-color
+- ![2543EB](https://user-images.githubusercontent.com/70138332/118383270-4d645200-b5f4-11eb-9e32-71ce93171b9e.jpg) `rgb(37,67,235)` - Logo, headers
+- ![B40000](https://user-images.githubusercontent.com/70138332/118383333-b21fac80-b5f4-11eb-8f23-01435c82efdb.jpg) `rgb(180, 0, 0)`-  Headers
+- ![dummy_20x20__ffdcb1](https://user-images.githubusercontent.com/70138332/112835245-ecf37280-9090-11eb-9513-a56f11b70407.png) `rgb(255, 255, 255)` -Homepage logo, buttons hover
 
 
 There were also greys used for some things like the background overlay of home buttons and text of navbar dropdown menu.
@@ -228,37 +223,38 @@ There were also greys used for some things like the background overlay of home b
 
 * HTML 
 * CSS 
-* JS
+* Javascript
 
 ## Libraries
 
-* [Bootstrap](https://getbootstrap.com/) (4.2.1) - Responsiveness, styling and navbar.
-* [FontAwseome](https://fontawesome.com/) (5.15.1) - Icons for the social media links.
+* [Bootstrap](https://getbootstrap.com/) (4.0.0) - Responsiveness, styling and navbar.
+* [FontAwseome](https://fontawesome.com/) (4.7.0) - Icons for the social media links.
 * [Google Fonts](https://fonts.google.com/) - Google Roboto font.
-* [Unsplash] (http://unsplash.com/) - Most images used across the site.
+* [Unsplash](http://unsplash.com/) - Most images used across the site.
 
 ## Tools
 
 * [Gitpod](https://www.gitpod.io) 
 * [Github](https://github.com/) - hosting repository and website.
 * [Figma](https://www.figma.com/) - used for creation of wireframes.
-* [Leaflet] (https://leafletjs.com/examples/quick-start/) - Interactive map
-* [Google Geocoder] (https://developers.google.com/maps/documentation/geocoding/overview) - used to find the map coordinates for the markers. 
+* [Leaflet](https://leafletjs.com/examples/quick-start/) - Interactive map
+* [Google Geocoder](https://developers.google.com/maps/documentation/geocoding/overview) - used to find the map coordinates for the markers. 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used to test the website and screenshot was taken for the top of README page.
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
-* [Diffchecker] (https://www.diffchecker.com/diff) - used for debugging.
+* [Diffchecker](https://www.diffchecker.com/diff) - used for debugging.
 * [w3 html validator](https://validator.w3.org/) - used to validate my html code.
 * [w3 css validator](https://jigsaw.w3.org/) - used to validate my css code.
 * [Autoprefixer CSS](https://autoprefixer.github.io/) - used to validate my css code.
-* [JSHint] (https://jshint.com/) - used to validate JS.
+* [JSHint](https://jshint.com/) - used to validate JS.
 
 ## Testing 
 
-## Validating the HTML and CSS code
+## Validating the HTML, CSS and Javascript code
 
 All of my code passed the following validation tests:
 - HTML: [W3C Markup Validation Service](https://validator.w3.org/)
 - CSS: [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
+- Javascript: [JShint](https://jshint.com/)
 
 Screenshots of validations for each page of code can be found [here](https://github.com/amoach/Ghana-based/tree/main/assets/images/testing)
 
@@ -332,9 +328,9 @@ I am responsible for all content and code written.
 * [W3C](https://www.w3.org/)
 * [Stack overflow](https://stackoverflow.com/)
 * [W3schools](https://www.w3schools.com/)
-* [Free Formatter] (https://www.freeformatter.com/)
-* [CSS Validation] (https://jigsaw.w3.org/css-validator/)
-* [HTML Validation] (https://validator.w3.org/)
+* [Free Formatter](https://www.freeformatter.com/)
+* [CSS Validation](https://jigsaw.w3.org/css-validator/)
+* [HTML Validation](https://validator.w3.org/)
 
 
 #### Support
