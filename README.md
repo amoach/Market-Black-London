@@ -199,14 +199,11 @@ This required me to decide how best the content should be displayed on smaller d
 
 Colour Palette - I chose three colours which were either taken from the photos used on the website or just one I thought would work well with the theme and be complimentary to the overall look. I also ensured there was continuity throughout the site.
 
-- ![2E1005](https://user-images.githubusercontent.com/70138332/118383118-1c375200-b5f3-11eb-954c-38e39cc04438.jpg) `rgb(46, 16, 4)` - Logo, text, form border, card borders
-- ![B78D79](https://user-images.githubusercontent.com/70138332/118383206-b4353b80-b5f3-11eb-8e38-71fe63c3534c.jpg) `rgb(183, 141, 121)` - Navbar, background-color
-- ![2543EB](https://user-images.githubusercontent.com/70138332/118383270-4d645200-b5f4-11eb-9e32-71ce93171b9e.jpg) `rgb(37,67,235)` - Logo, headers
-- ![B40000](https://user-images.githubusercontent.com/70138332/118383333-b21fac80-b5f4-11eb-8f23-01435c82efdb.jpg) `rgb(180, 0, 0)`-  Headers
-- ![dummy_20x20__ffdcb1](https://user-images.githubusercontent.com/70138332/112835245-ecf37280-9090-11eb-9513-a56f11b70407.png) `rgb(255, 255, 255)` -Homepage logo, buttons hover
+- ![2E1005](https://user-images.githubusercontent.com/70138332/118418777-c37abe80-b6b1-11eb-828b-8257b1973221.jpg) `rgb(46, 16, 4)` - Logo, text, form border, card borders
+- ![B78D79](https://user-images.githubusercontent.com/70138332/118418962-7a773a00-b6b2-11eb-9e62-de055aca4127.jpg) `rgb(183, 141, 121)` - Navbar, background-color
+- ![2543EB](https://user-images.githubusercontent.com/70138332/118419475-03db3c00-b6b4-11eb-803b-9916eb2b42ed.jpg) `rgb(37,67,235)` - Logo, headers
+- ![B40000](https://user-images.githubusercontent.com/70138332/118418879-25d3bf00-b6b2-11eb-9945-818ab6345f21.jpg) `rgb(180, 0, 0)`-  Headers
 
-
-There were also greys used for some things like the background overlay of home buttons and text of navbar dropdown menu.
 
 ### Nav Bar
 
@@ -299,6 +296,76 @@ I tested the website on the following web browsers:
 
 1. Getting Google maps API to display on the site
 - I had issues with the Google Maps API 
+- Took API code from [here](https://developers.google.com/maps/documentation/javascript/overview)
+- ![b1](https://user-images.githubusercontent.com/70138332/118414860-f36c9680-b69e-11eb-95d4-8ff9b573f9bf.png)
+
+- ![b2](https://user-images.githubusercontent.com/70138332/118414944-6d048480-b69f-11eb-8139-3ed246e28cd5.png)
+- ![b3](https://user-images.githubusercontent.com/70138332/118414961-87d6f900-b69f-11eb-9566-b4e405d8546f.png)
+- Map kept disappearing and needed a lot of refreshes for it to appear, with the following error displaying in devtools:
+- ![b4](https://user-images.githubusercontent.com/70138332/118414980-9b825f80-b69f-11eb-823b-9b5ea613234c.png)
+
+- The code circled in the script tag was deleted in order to fix the error. It was also initially inserted in the bottom of <head> and moved to bottom of <body>
+- ![b5](https://user-images.githubusercontent.com/70138332/118415051-0338aa80-b6a0-11eb-96d6-70a6e8ab9877.png)
+
+- map.js file was also missing the following code: 
+'initMap(); 
+function initMap(place) {'
+
+- There was still the following error being shown in devtools:
+- ![b6](https://user-images.githubusercontent.com/70138332/118415250-434c5d00-b6a1-11eb-8ca9-7ebe418ba045.png)
+- Found that it was due to the fact of me thinking ahead to adding a search function which was the reason to the problem:
+// searchButton.addEventListener("click", (e) => {
+//   e.preventDefault();
+//     const inputEmail = document.getElementById("inputEmail");
+//     searchInput(inputEmail)
+// });
+
+- I knew I needed to add marker clusters as well so included them before attempting anything with the help of the Google Maps Platform 
+- Marker Clustering and personalized the codes from [here](https://developers.google.com/maps/documentation/javascript/marker-clustering)
+- ![b7](https://user-images.githubusercontent.com/70138332/118415419-1d738800-b6a2-11eb-919c-b23f47d3d8a5.png)
+
+- Got coordinates for locations from [here](https://developers.google.com/maps/documentation/geocoding/overview)
+- ![b8](https://user-images.githubusercontent.com/70138332/118415464-63305080-b6a2-11eb-820d-d3909d881449.png)
+
+- Map was disappearing from display again so had to review code again.
+- It was bought to my attention that I have put the script tags in the wrong order as well as an additional one for the master cluster:
+- ![b9](https://user-images.githubusercontent.com/70138332/118415495-8a871d80-b6a2-11eb-95ae-7d2268fc8f08.png)
+- Rectified:
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4ea1288FFsX8p5eIDv8vs6zZ0ij9v51s&libraries=places"></script>
+<script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+<script src="assets/js/map.js" ></script>
+
+- But there were still errors in the console and marker clusters were not displaying:
+- ![b10](https://user-images.githubusercontent.com/70138332/118415526-c3bf8d80-b6a2-11eb-86bb-509b087ba715.png)
+- Const locations were moved to the top of the map.js file and marker cluster to bottom which fixed all the display issues, as the variables needed to be defined before the initMap() function.
+
+- One of the tutors suggested a different map API which as it is much simpler to add markers etc. And proved to work much better and much easier to understand what I was I coding.
+- The following guide was used [here](https://leafletjs.com/examples/quick-start/)
+- And guide written by the tutor [here](https://github.com/TravelTimN/ci-ifd-lead/blob/main/week4-leafletjs/leaflet.md)
+
+2. Mobile view was having issues relating to element widths and margins:
+- ![b11](https://user-images.githubusercontent.com/70138332/118415885-ce7b2200-b6a4-11eb-9488-1b3899807bf1.png)
+
+- index.html had to be reviewed entirely, each element in devtools
+- Found the main culprits were the following with their widths being too large and causing overflows and therefore amended:
+- Navbar and map:
+- ![b12](https://user-images.githubusercontent.com/70138332/118416324-008d8380-b6a7-11eb-955a-b01d3c60eae6.png)
+
+- Contact form:
+- ![b11](https://user-images.githubusercontent.com/70138332/118415885-ce7b2200-b6a4-11eb-9488-1b3899807bf1.png)
+
+- Navbar was tackled by replacing the bootstrap 'fixed-top' class to 'sticky-top' as it turned out to be not so problematic and achieved the desired result
+- Map width was reduced to fit the width of screen along with the contact form
+- Left-margins had to then be tackled and was done via devtools - unchecking each element to see how they behaved and slowly, each was fixed
+
+- There was also an issue with and unexpected element, with the width being 100%, it created an overflow:
+- ![b13](https://user-images.githubusercontent.com/70138332/118416825-65e27400-b6a9-11eb-9ea6-b80336e357b4.png)
+
+- Another issue encountered wasn't necessarily interferring with the responsiveness but did look like a bad design -the carousel width was too tiny:
+- ![b14](https://user-images.githubusercontent.com/70138332/118418085-e3f54980-b6ae-11eb-94f7-50e7bb3227bd.png)
+- Only later realised that the carousel for larger screens was styled with 'max-width' and therefore interefering with the 375px media query for mobile view
+- Once the 375px was matched with 'max-width' it fixed the width issue
+
 
 ## Issues 
 
